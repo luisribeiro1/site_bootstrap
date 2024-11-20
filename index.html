@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Landing page em Bootstrap</title>
+</head>
+
+<body class="bg-secondary-subtle">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="imagens/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#quemsomos">Quem Somos</a>
+          <a class="nav-link" href="#projetos">Projetos</a>
+          <a class="nav-link" href="#servicos">Serviços</a>
+          <a class="nav-link" href="#produtos">Produtos</a>
+          <a class="nav-link" href="#faq">FAQ</a>
+          <a class="nav-link" href="#localizacao">Localização</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagens/3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/1.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid my-5 py-5">
+    <div class="container">
+      <a name="quemsomos"></a>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-9 text-center">
+          <i class="bi bi-cup-hot-fill display-1"></i>
+          <h1>Quem <strong>somos</strong></h1>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum maxime repellendus odit quis ad illum?
+            Provident voluptatem facere, tempora eligendi, non vitae maxime magnam adipisci error vel magni explicabo
+            unde?</p>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, asperiores earum? Ab ipsam, aliquam quod rem
+            quae quo alias aperiam quis consectetur voluptates consequatur ducimus dolorem dolore asperiores, nisi
+            repudiandae.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-white my-5 py-5">
+    <div class="container">
+      <a name="projetos"></a>
+      <h2 class="text-center">Nossos <strong>Projetos</strong></h2>
+      <div class="row">
+        <div class="col-md-12">
+          
+          <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 90%">HTML</div>
+          </div>
+          <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info text-dark" style="width: 65%">CSS</div>
+          </div>
+          <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 75%">JAVASCRIPT</div>
+          </div>
+          <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 25%">PHP</div>
+          </div>          
+          <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 45%">SQL</div>
+          </div>          
+          <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-secondary" style="width: 10%">REACT</div>
+          </div>          
+ 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5 py-5">
+    <a name="servicos"></a>
+    <h2 class="text-center mb-4">Nossos <strong>Serviços</strong></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagens/3.png" class="card-img-top servicos-foto" alt="...">
+          <div class="card-body">
+            <h5 class="fw-bold">Serviço de impressão</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio nobis inventore praesentium
+              sunt enim possimus earum mollitia illo in ea nulla corporis maiores rerum, nostrum accusantium delectus
+              impedit fugit!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagens/2.png" class="card-img-top servicos-foto" alt="...">
+          <div class="card-body">
+            <h5 class="fw-bold">Serviço de web</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio nobis inventore praesentium
+              sunt enim possimus earum mollitia illo in ea nulla corporis maiores rerum, nostrum accusantium delectus
+              impedit fugit!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagens/1.png" class="card-img-top servicos-foto" alt="...">
+          <div class="card-body">
+            <h5 class="fw-bold">Serviço geral</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio nobis inventore praesentium
+              sunt enim possimus earum mollitia illo in ea nulla corporis maiores rerum, nostrum accusantium delectus
+              impedit fugit!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bg-danger text-warning my-5 py-5">
+    <div class="container">
+      <a name="produtos"></a>
+      <h2 class="text-center mb-4">Nossos <strong>Produtos</strong></h2>
+      <div class="row">
+        <div class="col-md-3">
+          <i class="bi bi-back fs-1 text-warning"></i>
+          <h3>iPhone</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptate neque obcaecati, impedit nobis
+            quas officia sit in est magni a, nisi placeat officiis dolores totam? Voluptatibus unde esse adipisci!</p>
+        </div>
+        <div class="col-md-3">
+          <i class="bi bi-basket3-fill fs-1 text-warning"></i>
+          <h3>Android</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptate neque obcaecati, impedit nobis
+            quas officia sit in est magni a, nisi placeat officiis dolores totam? Voluptatibus unde esse adipisci!</p>
+        </div>
+        <div class="col-md-3">
+          <i class="bi bi-camera-fill fs-1 text-warning"></i>
+          <h3>Xiaomi</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptate neque obcaecati, impedit nobis
+            quas officia sit in est magni a, nisi placeat officiis dolores totam? Voluptatibus unde esse adipisci!</p>
+        </div>
+        <div class="col-md-3">
+          <i class="bi bi-buildings-fill fs-1 text-warning"></i>
+          <h3>Motorola</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptate neque obcaecati, impedit nobis
+            quas officia sit in est magni a, nisi placeat officiis dolores totam? Voluptatibus unde esse adipisci!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container my-5 py-5">
+    <a name="contato"></a>
+    <h2 class="text-center mb-4">Formas de <strong>contato</strong></h2>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="#" class="btn btn-lg btn-primary"><i class="bi bi-facebook"></i> Facebook</a>
+        <a href="#" class="btn btn-lg btn-success"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+        <a href="#" class="btn btn-lg btn-danger"><i class="bi bi-instagram"></i> Instagram</a>
+        <a href="#" class="btn btn-lg btn-dark"><i class="bi bi-tiktok"></i> Tik-Tok</a>
+        <a href="#" class="btn btn-lg btn-info"><i class="bi bi-twitter"></i> Twitter</a>
+        <a href="#" class="btn btn-lg btn-danger"><i class="bi bi-youtube"></i> Youtube</a>
+        <a href="#" class="btn btn-lg btn-warning"><i class="bi bi-envelope-at-fill"></i> E-mail</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-secondary my-5 py-5">
+    <div class="container">
+      <a name="faq"></a>
+      <h2 class="text-center mb-4">Perguntas <strong>Frequentes</strong></h2>
+      <div class="row">
+        <div class="col-md-12 ">
+
+          <!-- Accordion -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  O que é e para que serve?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis assumenda asperiores quis repudiandae consequuntur facere cumque doloribus voluptate! Sint fuga cumque commodi consectetur pariatur minus laborum culpa? Provident, nemo cum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall
+                  appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                  custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                  within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall
+                  appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                  custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                  within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Accordion -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container-fluid mt-5 pt-5">
+    <a name="localizacao"></a>
+    <h2 class="text-center mb-4">Onde <strong>estamos</strong></h2>
+    <div class="row">
+      <div class="col-md-12 ratio ratio-21x9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14736.882469370583!2d-47.40003659999999!3d-22.57085055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1731954058307!5m2!1spt-BR!2sbr"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
